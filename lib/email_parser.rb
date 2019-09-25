@@ -9,11 +9,11 @@
   def parse
     result = []
     array_form = @email_string.split(/[\s,]/)
-    array_form.each { |email|
+    array_form.each do |email|
       if email.length > 3 
         result << email
       end 
-    }
+    end 
     result.uniq 
   end 
 end 
