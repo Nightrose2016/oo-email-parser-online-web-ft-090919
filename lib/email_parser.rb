@@ -14,6 +14,6 @@
         result << email
       end 
     }
-  result.uniq 
+    result.uniq 
   end 
 end 
